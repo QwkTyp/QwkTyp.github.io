@@ -5,33 +5,34 @@ let retryButton = document.getElementById('retry');
 
 let textArr, currentIndex, currentInput, correctWord, startTime;
 
-function updateText(isValid) {
+function updateText() {
   challengeText.innerHTML = textArr.map((word, index) => {
+    console.log(currentIndex);
     if (correctWord.includes(index)) {
-      return `<span style="color: #2ecc71">${word}</span>`;
+      return `<span class="word" style="color: #2ecc71">${word}</span>`;
     } else if (index < currentIndex) {
-      return `<span style="color: #ff6961">${word}</span>`;
+      return `<span class="word" style="color: #ff6961">${word}</span>`;
     } else if (index === currentIndex) {
       if (currentInput.length === 0) {
-        return `<span style="font-weight: bold">${word}</span>`;
+        return `<span class="word active">${word}</span>`;
       } else {
-        if (isValid) {
-          return `<span style="color: #1b8c4b; font-weight: bold">${word}</span>`;
+        if (currentInput === textArr[currentIndex].slice(0, currentInput.length)) {
+          return `<span class="word active" style="color: #1b8c4b;">${word}</span>`;
         } else { 
-          return `<span style="color: #c23a32; font-weight: bold">${word}</span>`;
+          return `<span class="word active" style="color: #c23a32;">${word}</span>`;
         }
       }
     } else {
-      return word;
+      return `<span class="word">${word}</span>`;
     }
   }).join(' ');
 }
 
-function init() {
+function init(length) {
   inputText.style = "display: block;"
   resultText.style = "display: none;";
   retryButton.style = "display: none;";
-  textArr = createParagraph(50);
+  textArr = createParagraph(length);
   currentIndex = 0;
   currentInput = '';
   correctWord = [];
@@ -40,8 +41,8 @@ function init() {
   updateText();
 }
 
-init();
-retryButton.onclick = init;
+init(50);
+retryButton.onclick = () => init(50);
 
 document.addEventListener('keydown', function(event) {
   if (!startTime) {
@@ -70,8 +71,6 @@ document.addEventListener('keydown', function(event) {
   } else if (key === "Backspace" && currentInput.length > 0) { 
     currentInput = currentInput.slice(0, currentInput.length - 1);
   }
-  currentInput === textArr[currentIndex].slice(0, currentInput.length) ? 
-    updateText(true) :
-    updateText(false);
+  updateText();
   inputText.innerHTML = currentInput;
 });

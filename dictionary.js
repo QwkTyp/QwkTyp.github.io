@@ -1,6 +1,5 @@
 const dictionary = 
-`a
-abandon
+`abandon
 ability
 able
 abortion
@@ -67,8 +66,6 @@ affair
 affect
 afford
 afraid
-African
-African-American
 after
 afternoon
 again
@@ -82,11 +79,9 @@ ago
 agree
 agreement
 agricultural
-ah
 ahead
 aid
 aide
-AIDS
 aim
 air
 aircraft
@@ -108,7 +103,6 @@ alter
 alternative
 although
 always
-AM
 amazing
 American
 among
@@ -280,7 +274,6 @@ bet
 better
 between
 beyond
-Bible
 big
 bike
 bill
@@ -304,8 +297,6 @@ blue
 board
 boat
 body
-bomb
-bombing
 bond
 bone
 book
@@ -330,7 +321,6 @@ brand
 bread
 break
 breakfast
-breast
 breath
 breathe
 brick
@@ -340,7 +330,6 @@ briefly
 bright
 brilliant
 bring
-British
 broad
 broken
 brother
@@ -375,8 +364,6 @@ camp
 campaign
 campus
 can
-Canadian
-cancer
 candidate
 cap
 capability
@@ -400,7 +387,6 @@ cast
 cat
 catch
 category
-Catholic
 cause
 ceiling
 celebrate
@@ -410,7 +396,6 @@ cell
 center
 central
 century
-CEO
 ceremony
 certain
 certainly
@@ -450,8 +435,6 @@ chocolate
 choice
 cholesterol
 choose
-Christian
-Christmas
 church
 cigarette
 circle
@@ -555,7 +538,6 @@ confirm
 conflict
 confront
 confusion
-Congress
 congressional
 connect
 connection
@@ -798,7 +780,6 @@ diversity
 divide
 division
 divorce
-DNA
 do
 doctor
 document
@@ -1114,7 +1095,6 @@ framework
 free
 freedom
 freeze
-French
 frequency
 frequent
 frequently
@@ -1163,7 +1143,6 @@ generation
 genetic
 gentleman
 gently
-German
 gesture
 get
 ghost
@@ -1181,7 +1160,6 @@ global
 glove
 go
 goal
-God
 gold
 golden
 golf
@@ -1250,7 +1228,6 @@ heavy
 heel
 height
 helicopter
-hell
 hello
 help
 helpful
@@ -1259,8 +1236,6 @@ here
 heritage
 hero
 herself
-hey
-hi
 hide
 high
 highlight
@@ -1310,14 +1285,12 @@ hunting
 hurt
 husband
 hypothesis
-I
 ice
 idea
 ideal
 identification
 identify
 identity
-ie
 if
 ignore
 ill
@@ -1360,7 +1333,6 @@ indeed
 independence
 independent
 index
-Indian
 indicate
 indication
 individual
@@ -1424,7 +1396,6 @@ invite
 involve
 involved
 involvement
-Irish
 iron
 island
 issue
@@ -1435,10 +1406,7 @@ its
 itself
 jacket
 jail
-Japanese
 jet
-Jew
-Jewish
 job
 join
 joint
@@ -1460,9 +1428,6 @@ keep
 key
 kick
 kid
-kill
-killer
-killing
 kind
 king
 kiss
@@ -1488,7 +1453,6 @@ largely
 last
 late
 later
-Latin
 latter
 laugh
 launch
@@ -1645,7 +1609,6 @@ message
 metal
 meter
 method
-Mexican
 middle
 might
 military
@@ -1695,9 +1658,6 @@ mouth
 move
 movement
 movie
-Mr
-Mrs
-Ms
 much
 multiple
 murder
@@ -1706,7 +1666,6 @@ museum
 music
 musical
 musician
-Muslim
 must
 mutual
 my
@@ -1802,10 +1761,7 @@ office
 officer
 official
 often
-oh
 oil
-ok
-okay
 old
 Olympic
 on
@@ -1899,7 +1855,6 @@ pattern
 pause
 pay
 payment
-PC
 peace
 peak
 peer
@@ -1965,7 +1920,6 @@ pleasure
 plenty
 plot
 plus
-PM
 pocket
 poem
 poet
@@ -2214,7 +2168,6 @@ reporter
 represent
 representation
 representative
-Republican
 reputation
 request
 require
@@ -2282,7 +2235,6 @@ run
 running
 rural
 rush
-Russian
 sacred
 sad
 safe
@@ -2343,8 +2295,6 @@ select
 selection
 self
 sell
-Senate
-senator
 send
 senior
 sense
@@ -2365,8 +2315,6 @@ settlement
 seven
 several
 severe
-sex
-sexual
 shade
 shadow
 shake
@@ -2383,7 +2331,6 @@ shift
 shine
 ship
 shirt
-shit
 shock
 shoe
 shoot
@@ -2452,7 +2399,6 @@ smooth
 snap
 snow
 so
-so-called
 soccer
 social
 society
@@ -2666,9 +2612,6 @@ term
 terms
 terrible
 territory
-terror
-terrorism
-terrorist
 test
 testify
 testimony
@@ -2787,7 +2730,6 @@ try
 tube
 tunnel
 turn
-TV
 twelve
 twenty
 twice
