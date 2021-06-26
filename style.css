@@ -66,6 +66,25 @@ body {
   color: rgb(112, 112, 112);
 }
 
+#share {
+  margin-top: 40px;
+}
+
+#share > a {
+  text-decoration: none;
+}
+
+#share > a > ion-icon {
+  cursor: pointer;
+  font-size: 2.5rem;
+  color: rgb(112, 112, 112);
+  margin: 5px;
+}
+
+#share > a > ion-icon:hover {
+  color: rgb(49, 49, 49);
+}
+
 .word {
   padding-left: 6px;
   padding-right: 6px;

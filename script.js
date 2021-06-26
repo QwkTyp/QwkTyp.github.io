@@ -2,12 +2,12 @@ let challengeText = document.getElementById('challenge');
 let inputText = document.getElementById('input');
 let resultText = document.getElementById('result');
 let retryButton = document.getElementById('retry');
+let shareButtons = document.getElementById('share');
 
 let textArr, currentIndex, currentInput, correctWord, startTime;
 
 function updateText() {
   challengeText.innerHTML = textArr.map((word, index) => {
-    console.log(currentIndex);
     if (correctWord.includes(index)) {
       return `<span class="word" style="color: #2ecc71">${word}</span>`;
     } else if (index < currentIndex) {
@@ -32,7 +32,8 @@ function init(length) {
   inputText.style = "display: block;"
   resultText.style = "display: none;";
   retryButton.style = "display: none;";
-  textArr = createParagraph(length);
+  sessionStorage.setItem('length', length);
+  textArr = createParagraph(Number(length));
   currentIndex = 0;
   currentInput = '';
   correctWord = [];
@@ -41,8 +42,8 @@ function init(length) {
   updateText();
 }
 
-init(50);
-retryButton.onclick = () => init(50);
+init(sessionStorage.getItem("length") || 50);
+retryButton.onclick = () => init(sessionStorage.getItem("length") || 50);
 
 document.addEventListener('keydown', function(event) {
   if (!startTime) {

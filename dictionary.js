@@ -2937,7 +2937,9 @@ youth
 zone`;
 
 function createParagraph(count) {
-  const dictionaryArr = dictionary.split('\n');
+  const dictionaryArr = dictionary
+    .split('\n')
+    .filter(word => word.length === 4 || word.length === 5);
   return [ ...Array(count)].fill(undefined).map(() => 
     dictionaryArr[Math.floor(Math.random() * (dictionaryArr.length + 1))]);
 }

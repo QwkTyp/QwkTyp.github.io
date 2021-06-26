@@ -10,7 +10,13 @@
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css?v=1.0">
+  <link rel="stylesheet" href="./style.css?v=1.1">
+
+  <meta property="og:url" content="qwktyp.github.io" />
+  <meta property="og:type" content="app" />
+  <meta property="og:title" content="QwkTyp.github.io" />
+  <meta property="og:description" content="Put your typing skills to the test - improve your WPM and accuracy." />
+  <meta property="og:image" content="https://i.imgur.com/kmPkh7K.png" />
 
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -18,15 +24,28 @@
 </head>
 
 <body>
-  <h1 id="title">QwkTyp.io</h1>
+  <h1 id="title">QwkTyp.github.io</h1>
   <h3 id="options">Length: <span onclick="init(25)">25</span> / <span onclick="init(50)">50</span> / <span
       onclick="init(75)">75</span></h3>
   <p id="challenge"></p>
   <h2 id="result"></h2>
   <h2 id="input">Start typing to begin...</h2>
   <h2 id="retry">Retry?</h2>
+  <div id="share">
+    <a href="https://www.facebook.com/sharer/sharer.php?u=qwktyp.github.io" target="_blank">
+      <ion-icon name="logo-facebook"></ion-icon>
+    </a>
+    <a href="https://twitter.com/intent/tweet?url=qwktyp.github.io" target="_blank">
+      <ion-icon name="logo-twitter"></ion-icon>
+    </a>
+    <a href="https://github.com/QwkTyp/QwkTyp.github.io" target="_blank">
+      <ion-icon name="logo-github"></ion-icon>
+    </a>
+  </div>
   <script src="./dictionary.js"></script>
   <script src="./script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
